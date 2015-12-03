@@ -1,0 +1,188 @@
+﻿body 
+{
+background:#fbb4b4;
+}
+form,.button,.device ,.switchOffdevice,.navButton
+{
+background:#efa7a7;
+color: #333;
+margin:auto;
+position:relative;
+width:810px;
+position:relative;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+font-weight: bold;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+input,.navButton    
+{
+display:inline;
+border: 1px solid #999;
+height:16px; 
+width:154px;
+margin:5px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+.button, .switch,.delete,.smallButton,.navButton{
+ background:#333;
+ color:#1896ad;
+ width:120px;
+height:50px;
+margin:2%;
+font-size: 12px;
+}
+.setButton,.buttonOff,.FileUploadControl 
+{
+background:#333;
+color:#1896ad;
+margin:2%;
+font-size: 10px;
+width:60px;
+height:20px;
+position:absolute;
+right:5px;
+top:5px;
+}
+.FileUploadControl {
+    right:5px;
+    top:30px;
+    width:80px;
+    height:15px;
+}
+.buttonOff
+{
+color:rgba(0, 0, 0, 0.3);
+background:none;
+}
+.wrong 
+{
+color:#ff0000;
+}
+.switch,.delete 
+{
+width:20px;
+height:20px;
+position:absolute;
+background-image:url(../images/power.png);
+background-position:center;
+background-repeat:no-repeat;
+margin:0 1%;
+bottom:1%;
+}
+.switch
+{
+right:20%;
+}
+.delete
+{
+background-image:url(../images/remove.png);
+right:4%;
+}
+.device,.switchOffdevice
+{
+margin:4%;
+width:190px;
+opacity:1;
+height:160px;
+padding:5px;
+display:inline-table;
+background:#ead138;
+position:relative;
+}
+.devname
+{
+font-size:12px;
+width:40%;
+height:15%;
+margin:1%;
+font-family: Tahoma, Geneva, sans-serif;
+font-weight: bold;
+padding:0px;
+letter-spacing: normal;
+line-height: none;
+margin:0px;
+text-align: left;
+text-transform: none;
+}
+.switchOffdevice 
+{
+background:#808080;
+}
+.smallButton, .smallButtonOff
+{
+width:18px;
+height:16px;
+font-size: 12px;
+text-align:center;
+margin:1%;
+}
+.smallButtonOff 
+{
+color:rgba(0, 0, 0, 0.3);
+}
+.feature 
+{
+font-size: 10px;
+margin:5px;
+}
+.black
+{
+background-color:#000000;
+opacity:0.8;
+z-index:9;
+visibility:hidden;
+position: absolute; 
+left:0;
+right:0;
+top:0;
+bottom:0;
+width:100%;
+height:100%;
+}
+.nav {
+width: auto;
+height:50px;
+background: #333;
+color:#1896ad;
+border: 3px solid #333;
+margin:10px;
+font-size:40px;
+border-radius: 3px;
+font-family: 'Oswald', sans-serif;
+line-height: 1;
+box-shadow: 1px 1px 0 #333, 2px 2px 0 rgba(0, 0, 0, 0.3), 3px 3px 3px #000000;
+}
+p 
+{
+font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+font-weight: normal;
+padding:10px;
+letter-spacing: .1em;
+line-height: 1.1em;
+margin:0px;
+text-align: left;
+text-transform: uppercase;
+}
+.navButton 
+{
+width:170px;
+display:block;
+}
+.sider {
+    float:left;
+    width:auto;
+}
